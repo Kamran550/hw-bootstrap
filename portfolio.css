@@ -1,0 +1,91 @@
+body{
+    height: 200vh;
+   
+}
+
+.container-fluid{
+    height: 70px;
+    background-color: #fff;
+    margin-bottom: 60px;
+
+}
+
+#navbarNav{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+.navbar-brand{
+    background-color: #4aaaa5;
+    height: 100%;
+    margin: 70px;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+.port-photo{
+    width: 233px;
+    height: 166px;
+}
+
+.col-md-6{
+    background-color: rgb(219, 198, 198);
+    margin-left: 30px;
+  
+}
+
+.portfolio-head{
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #4aaaa5;
+   
+}
+
+#img-portfolio{
+    margin-top: 30px;
+}
+
+.port-photo{
+    margin-left: 17px;
+    margin-right: 17px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.col-md-4{
+    height: 200px;
+    background-color: rgb(219, 198, 198);
+    text-align: center;
+    margin-left: 70px;
+}
+
+.connect-photo{
+    width: 55px;
+}
+
+.connect-with-me{
+    color: #4aaaa5;
+}
+
+
+footer{
+    background-color: #666;
+    border-top: 7px solid #4aaaa5;
+    height: 70px;
+    margin-top: 215px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footer-p{
+    color: white;
+    font-weight: 600;
+}

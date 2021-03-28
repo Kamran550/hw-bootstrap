@@ -1,0 +1,78 @@
+body{
+    height: 100vh;
+
+}
+
+
+.container-fluid{
+    background-color: rgb(63, 63, 63);
+    margin-top: 0;
+    height: 80px;
+    margin-bottom: 40px;
+    
+}
+#navbarNav{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+.navbar-brand{
+    background-color: #4aaaa5;
+    height: 100%;
+    margin: 70px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    width: 15%;
+    justify-content: center;
+}
+.col-md-7{
+    background-color: rgb(219, 198, 198);
+    margin-left: 0;
+
+}
+
+
+.about-image{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+article p:nth-child(2){
+    margin: 0 0 30px;
+}
+
+.col-md-4{
+    background-color: rgb(219, 198, 198);
+    height: 200px;
+    
+ 
+}
+
+.image-connect-with-me{
+    
+    text-align: center;
+}
+
+.connect-photo{
+    width: 55px;
+}
+
+footer{
+    background-color: #666;
+    border-top: 7px solid #4aaaa5;
+    height: 70px;
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-p{
+    color: white;
+    font-weight: 600;
+}
