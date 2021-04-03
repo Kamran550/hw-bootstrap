@@ -1,78 +1,97 @@
 body{
-    height: 100vh;
-
+    margin-bottom: 150px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-image: url("./photos/ignasi_pattern_s.png");
+    height: 100vh; 
 }
 
 
-.container-fluid{
-    background-color: rgb(63, 63, 63);
-    margin-top: 0;
-    height: 80px;
-    margin-bottom: 40px;
-    
+.navbar-custom{
+    background-color: white;
 }
+#logo{
+    height: 70px;
+    background-color: #4aaaa5;
+    padding-top: 18px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    padding-bottom: 5px;
+    margin-left: 70px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+
 #navbarNav{
-    display: flex;
     justify-content: flex-end;
     margin-right: 30px;
 }
 
-.navbar-brand{
-    background-color: #4aaaa5;
-    height: 100%;
-    margin: 70px;
+.navbar-right{
+    padding-top: 6px;
+    padding-right: 20px;
+    font-family: Arial;
+    font-weight: lighter;
+}
+/*------*/
+
+.about-me-content{
+    padding: 30px;
+    margin-top: 40px;
+    background-color: #fff;
+    width: 100%;
+}
+
+.about-me-header{
+    padding: 10px;
+    color: #4aaaa5;
+    font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: 600;
-    display: flex;
-    align-items: center;
-    width: 15%;
-    justify-content: center;
-}
-.col-md-7{
-    background-color: rgb(219, 198, 198);
-    margin-left: 0;
-
+    margin-bottom: 33px;
 }
 
-
-.about-image{
+#nate-image{
     float: left;
     width: 200px;
     height: 200px;
-    margin-top: 20px;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
-article p:nth-child(2){
-    margin: 0 0 30px;
+.about-me-content p{
+    font-size: 16px;
+    padding-top: 20px;
+    line-height: 20px;
+    color: rgb(175, 175, 184);
 }
 
-.col-md-4{
-    background-color: rgb(219, 198, 198);
-    height: 200px;
-    
- 
+#connect-with-me-area{
+    background-color: #fff;
+    padding: 30px 30px 43px;
+    margin-top: 40px;
+}
+.connect-with-me-header{
+    font-size: 25px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    color: #4aaaa5;
+    font-weight: 600;
 }
 
-.image-connect-with-me{
-    
+#images{
     text-align: center;
+   padding-top: 15px;
 }
 
-.connect-photo{
+#images img{
     width: 55px;
+    height: 55px;
 }
 
 footer{
-    background-color: #666;
-    border-top: 7px solid #4aaaa5;
-    height: 70px;
-    margin-top: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.footer-p{
-    color: white;
-    font-weight: 600;
+  width: 100%;
+  height: 60px;
+  margin-top: 90px;
+  background-color: #666;
+  margin-bottom: 0px;
+  color: white;
+  text-align: center;
+padding-top: 10px;
 }

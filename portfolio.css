@@ -1,91 +1,106 @@
 body{
-    height: 200vh;
-   
+    margin-bottom: 150px;
+    height: 170vh;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-image: url("./photos/ignasi_pattern_s.png");
 }
 
-.container-fluid{
-    height: 70px;
+.navbar-custom{
     background-color: #fff;
-    margin-bottom: 60px;
+  
 
+}
+
+#logo{
+    height: 70px;
+    background-color: #4aaaa5;
+    margin-left: 70px;
+    height: 100%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 18px;
+    padding-bottom: 16px;
+    font-family: Georgia, Times, "Times New Roman", serif;
 }
 
 #navbarNav{
-    display: flex;
     justify-content: flex-end;
     margin-right: 30px;
 }
 
-.navbar-brand{
-    background-color: #4aaaa5;
-    height: 100%;
-    margin: 70px;
-    width: 15%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 600;
+.navbar-right{
+    padding-top: 6px;
+    padding-right: 20px;
+    font-family: Arial;
+    font-weight: lighter;
 }
-.port-photo{
+
+/*--------*/
+
+.portfolio-area{
+  
+    background-color: #fff;
+    margin-top: 40px;
+    padding: 20px;
+    float: right;
+    
+}
+.Portfolio-header{
+    color: #4aaaa5;
+    font-weight: bold;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    margin-left: 20px;
+    padding: 15px;
+    padding-bottom: 10px;
+}
+
+.portfolio-img{
     width: 233px;
     height: 166px;
-}
-
-.col-md-6{
-    background-color: rgb(219, 198, 198);
+    margin: 7px;
     margin-left: 30px;
-  
-}
-
-.portfolio-head{
-    padding: 15px;
     margin-top: 10px;
-    margin-bottom: 30px;
-    font-family: Georgia, Times, "Times New Roman", serif;
-    font-size: 32px;
-    font-weight: bold;
-    color: #4aaaa5;
+    margin-bottom: 15px;
    
 }
 
-#img-portfolio{
-    margin-top: 30px;
-}
-
-.port-photo{
-    margin-left: 17px;
-    margin-right: 17px;
-    margin-bottom: 20px;
-    margin-top: 10px;
-}
-
-.col-md-4{
-    height: 200px;
-    background-color: rgb(219, 198, 198);
-    text-align: center;
-    margin-left: 70px;
-}
-
-.connect-photo{
-    width: 55px;
-}
-
-.connect-with-me{
-    color: #4aaaa5;
-}
-
-
-footer{
-    background-color: #666;
-    border-top: 7px solid #4aaaa5;
-    height: 70px;
-    margin-top: 215px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#connect-with-me-area{
+    background-color: #fff;
+    padding: 30px 30px 43px;
+    margin-top: 40px;
     
 }
-.footer-p{
-    color: white;
+
+#images{
+    text-align: center;
+    padding-top: 15px;
+}
+
+#images img{
+    width: 55px;
+    height: 55px;
+}
+
+.connect-with-me-header{
+    font-size: 25px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    color: #4aaaa5;
     font-weight: 600;
 }
+
+footer{
+    width: 100%;
+    background-color: #666;
+    margin-bottom: 0px;
+    margin-top: 120px;
+    height: 60px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: 17px;
+    font-weight: 700;
+}
+

@@ -10,66 +10,69 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#" style="color: white;">Kamran Ferzeliyev</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html" tabindex="-1" aria-disabled="true">Contact</a>
-          </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid navbar-custom">
+          <a class="navbar-brand" id="logo" href="#">Kamran Ferzeliev</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav navbar-right">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="wrap">
+        <div class="container">
+          <section class="row">
+            <div class="col-md-8">
+              <article class="about-me-content">
+                <h1 class="about-me-header">About Me</h1>
+                <hr class="about-me-hr"/>
+                <img src="./photos/1.jpg" alt="" id="nate-image"/> 
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <br />
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </article>
+            </div>
+            <div class="col-md-4">
+  
+              <!-- Start of Connect With Me Area -->
+              <section id="connect-with-me-area">
+                <div class="connect-with-me-content">
+                  <h1 class="connect-with-me-header">Connect With Me</h1>
+                  <hr />
+                  <div id="images">
+                    <img src="./photos/github-128.png" alt="" class="connect-with-me-photo">
+                    <img src="./photos/linkedin-128.png" alt="" class="connect-with-me-photo">
+                    <img src="./photos/stackoverflow-128.png" alt="" class="connect-with-me-photo">
+                  </div>
+                </div>
+              </section>
+              <!-- End of the Connect With Me Area -->
+              
+            </div>
+          </section>
+        </div>
       </div>
-    </div>
-  </nav>
-
-    
-      <div class="container" id="con">
-        <div class="row">
-          <div class="col-md-7">
-            <article class="about-header">
-              <h2>About Me</h2>
-              <hr class="about">
-              <img src="./photos/1.jpg" width="200px" class="about-image"  alt="">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum vel minima praesentium! Hic suscipit, sunt deleniti porro impedit ullam molestias id sit at ipsum cupiditate praesentium exercitationem repudiandae nihil distinctio labore? Illo voluptatum fugiat cumque suscipit iste! Corrupti, necessitatibus velit.z</p>
-              <br>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptates adipisci laboriosam odio. Ducimus numquam nemo ratione omnis quisquam, molestias sunt debitis! Mollitia veritatis omnis officiis beatae unde aliquam rem?</p>
-            </article>
-          </div>
-          <div class="col-md-4 offset-1">
-            <div class="connect">
-              <h1 class="connect-with-me">Connect with Me</h1>
-            </div>
-            <hr id="connect">
-            <div class="image-connect-with-me">
-              <img src="./photos/github-128.png" alt="" class="connect-photo">
-              <img src="./photos/linkedin-128.png" alt="" class="connect-photo">
-              <img src="./photos/stackoverflow-128.png" alt="" class="connect-photo">
-            </div>
-          </div>
+      <footer>
+        <div class="container">
+          &copy; Copyright 2016 Your Name
         </div>
-        </div>
+      </footer>
   
-  
-  <footer class="footer">
-    <p class="footer-p">
-      &copy; Copyright 2021 Kamran Ferzeliyev
-    </p>
-  </footer>
-  
-  
-      
 
-    <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>      
 </body>
 </html>
